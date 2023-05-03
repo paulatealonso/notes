@@ -4,8 +4,8 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 
-app.listen(4006, () => {
-    console.log('Server listening in port 4006');
+app.listen(3307, () => {
+    console.log('Server listening in port 3307');
 });
 
 const mysql = require('mysql');
